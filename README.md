@@ -34,7 +34,7 @@ You also can testing app:
 
 <img src="https://github.com/petrenkodesign/FCM_cordova_test_app/blob/master/manual/postman.jpg" />
 
-Url for firebase API ```https://fcm.googleapis.com/fcm/send```  
+Url for messaging API ```https://fcm.googleapis.com/fcm/send```  
 
 Use this code in header of request:
 
