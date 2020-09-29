@@ -28,3 +28,40 @@ Then execute ```cordova prepare android / ios```  for compile project.
 You also can testing app:
 - use ```cordova run android/ ios``` - if you want run app on emulator or testing device
 - or ```cordova android / ios``` - if you needed apk file
+
+
+<b>You can use API for sending messages to devices.</b>
+
+<img src="https://github.com/petrenkodesign/FCM_cordova_test_app/blob/master/manual/postman.jpg" />
+
+Url for firebase API ```https://fcm.googleapis.com/fcm/send```  
+
+Use this code in header of request:
+
+```"Content-Type" : "application/json"```  
+```"Authorization" : "key=<Firebase server key>"```
+
+Firebase server key you can find in ```Firebase console -> Project setting -> Cloud Messaging -> Project credentials -> Server key```  
+
+<img src="https://github.com/petrenkodesign/FCM_cordova_test_app/blob/master/manual/server_key.png" />
+
+Use this code in body of request:
+
+```
+{
+	"to": "<device token>",
+	"notification": {
+		"title": "This is test message",
+		"body": "Check adding json data",
+		"mutable_content": true,
+		"sound": true
+	},
+	"data": {
+		"ke1": "value1",
+		"key2": "value2"
+	}
+}
+```
+device token you can get in app when push on the "Get FCM Token" button
+
+<img src="https://github.com/petrenkodesign/FCM_cordova_test_app/blob/master/manual/device_token.jpg" />
