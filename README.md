@@ -62,6 +62,6 @@ Use this code in body of request:
 	}
 }
 ```
-device token you can get in app when push on the "Get FCM Token" button
+```<device token>``` you can get in app when push on the "Get FCM Token" button
 
 <img src="https://github.com/petrenkodesign/FCM_cordova_test_app/blob/master/manual/device_token.jpg" />
