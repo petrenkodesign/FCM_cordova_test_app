@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="Content-Security-Policy" content="default-src 'self' data: gap: https://ssl.gstatic.com 'unsafe-eval'; style-src 'self' 'unsafe-inline'; media-src *; img-src 'self' data: content:;">
+        <meta name="format-detection" content="telephone=no">
+        <meta name="msapplication-tap-highlight" content="no">
+        <meta name="viewport" content="initial-scale=1, width=device-width, viewport-fit=cover">
+        <meta name="color-scheme" content="light dark">
+        <link rel="stylesheet" href="css/index.css">
+        <title>Testing Firebase Messaging</title>
+    </head>
+    <body>
+        <div class="app">
+            <div id="deviceready" class="blink">
+                <p class="event listening">Connecting to Device</p>
+                <p class="event received">Device is Ready</p>
+            </div>
+            <h1>Testing Firebase Messages</h1>
+            <div class="tbox_content">
+              <div id="FBMtoken" class="tbox">FIREBASE DEVICE TOKEN</div>
+              <div id="FBMcontent" class="tbox">FIREBASE MESSAGE</div>
+              <p>
+                <p>
+                  <button id="b_gfbmt">Get FBM Token</button>
+                </p>
+                <p>
+                  <button id="b_gfbms">Get FBM Message</button>
+                </p>
+              </p>
+            </div>
+        </div>
+        <script src="cordova.js"></script>
+        <script src="js/index.js"></script>
+    </body>
+</html>

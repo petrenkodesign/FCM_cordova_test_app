@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "211210993828",
+    "firebase_url": "https://pelagic-river-107208.firebaseio.com",
+    "project_id": "pelagic-river-107208",
+    "storage_bucket": "pelagic-river-107208.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:211210993828:android:c0c5d7facc715785366631",
+        "android_client_info": {
+          "package_name": "com.smartfactory.firebase"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "211210993828-v2ul009kf5oagt6q96setm7b9mvc1lh2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBgkzZlC6LN_xIZ-7Gf-tQOwVjZ9m1MeYI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "211210993828-v2ul009kf5oagt6q96setm7b9mvc1lh2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
