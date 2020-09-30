@@ -27,7 +27,7 @@ Then execute ```cordova prepare android / ios```  for compile project.
 
 You also can testing app:
 - use ```cordova run android/ ios``` - if you want run app on emulator or testing device
-- or ```cordova android / ios``` - if you needed apk file
+- or ```cordova build android / ios``` - if you needed apk file
 
 
 <b>You can use API for sending messages to devices.</b>
