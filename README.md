@@ -5,7 +5,7 @@ You can send message to multiple devices or for specific target, from web Fireba
 
 # Plugins used by the project
 - ```cordova plugin add cordova-plugin-firebasex``` - <a href="https://github.com/dpa99c/cordova-plugin-firebasex">https://github.com/dpa99c/cordova-plugin-firebasex</a>
-- ```cordova plugin add cordova-plugin-androidx``` - <a href="https://github.com/dpa99c/cordova-plugin-androidx">https://github.com/dpa99c/cordova-plugin-androidx</a> this plugin is only needed if your project uses legacy ```cordova-android@8```, if you use ```cordova-android@9``` enable AndroidX by setting the following preference in your ```config.xml```: ```<preference name="AndroidXEnabled" value="true" />```
+- ```cordova plugin add cordova-plugin-androidx``` - <a href="https://github.com/dpa99c/cordova-plugin-androidx">https://github.com/dpa99c/cordova-plugin-androidx</a> this plugin is only needed if your project uses legacy ```cordova-android@8```, if you use ```cordova-android@9``` enable AndroidX by setting the following preference in your ```config.xml```: ```<preference name="AndroidXEnabled" value="true" />``` if you have plugins or code with Android library dependencies, and when you build project you have Gradle error, use this plugin ```cordova-plugin-androidx-adapter``` for replacing Android support library links with AndroidX equivalents, and reconfigure Gradle
 - ```cordova plugin add cordova-clipboard``` - <a href="https://github.com/ihadeed/cordova-clipboard">https://github.com/ihadeed/cordova-clipboard</a>
 
 # Supported Mobile Platform Versions
